@@ -1,20 +1,20 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
+
 
 body {
     background-color: hsl(217, 54%, 11%);
-    color: white;
     font-family: 'Outfit', sans-serif;
+}
+
+main, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+}
 
+main {
+    height: 100vh;
 }
 
 
@@ -25,6 +25,7 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* Card hero image */
@@ -35,6 +36,11 @@ body {
 }
 
 /* Main card content */
+
+.cardInformation {
+    display: flex;
+    justify-content: space-between;
+}
 
 h1 {
     font-size: 24px;
@@ -47,14 +53,7 @@ p {
     color: hsl(215, 51%, 70%);
 }
 
-.cardInformation {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Card pricing */
-
-.cardPrice {
+.cardPrice, .cardTime {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,26 +65,13 @@ font-weight: 600;
 color: hsl(178, 100%, 50%);
 }
 
-.cardPrice img {
-    height: 14px;
-    margin-right: 6px;
-}
-
-/* Card time */
-
-.cardTime {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cardTime h3 {
     font-size: 14px;
     font-weight: 200;
     color: hsl(215, 51%, 70%);
 }
 
-.cardTime img {
+.cardIcon {
     height: 14px;
     margin-right: 6px;
 }
@@ -107,7 +93,7 @@ hr {
     color: hsl(215, 51%, 70%);;
 }
 
-.cardFooter img {
+.cardFooterAvatar {
     width: 24px;
     height: 24px;
     border: 1px solid white;
@@ -121,3 +107,12 @@ hr {
     text-decoration: none;
 }
 
+/* Attribution */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
