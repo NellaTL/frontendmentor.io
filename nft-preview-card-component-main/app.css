@@ -1,0 +1,17 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardContainer {
+    background-color: hsl(216, 50%, 16%);
+}
