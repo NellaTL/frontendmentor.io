@@ -4,7 +4,7 @@
 body {
     background-color: hsl(217, 54%, 11%);
     color: white;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +12,66 @@ body {
 
 }
 
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 200;
+    color: hsl(215, 51%, 70%);
+}
+
 .cardContainer {
     background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 16px;
 }
+
+.cardHeroImage {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.cardInformation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPrice h2 {
+font-size: 14px;
+font-weight: 600;
+color: hsl(178, 100%, 50%);
+}
+
+.cardPrice img {
+    height: 14px;
+    margin-right: 6px;
+}
+
+.cardTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTime h3 {
+    font-size: 14px;
+    font-weight: 200;
+    color: hsl(215, 51%, 70%);
+}
+
+.cardTime img {
+    height: 14px;
+    margin-right: 6px;
+}
+
+
