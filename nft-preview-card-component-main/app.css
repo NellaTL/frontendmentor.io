@@ -1,5 +1,10 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 body {
     background-color: hsl(217, 54%, 11%);
@@ -12,6 +17,25 @@ body {
 
 }
 
+
+/* Main card container */
+
+.cardContainer {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* Card hero image */
+
+.cardHeroImage {
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Main card content */
+
 h1 {
     font-size: 24px;
     font-weight: 600;
@@ -23,22 +47,12 @@ p {
     color: hsl(215, 51%, 70%);
 }
 
-.cardContainer {
-    background-color: hsl(216, 50%, 16%);
-    width: 300px;
-    padding: 20px;
-    border-radius: 16px;
-}
-
-.cardHeroImage {
-    width: 300px;
-    border-radius: 8px;
-}
-
 .cardInformation {
     display: flex;
     justify-content: space-between;
 }
+
+/* Card pricing */
 
 .cardPrice {
     display: flex;
@@ -57,6 +71,8 @@ color: hsl(178, 100%, 50%);
     margin-right: 6px;
 }
 
+/* Card time */
+
 .cardTime {
     display: flex;
     justify-content: center;
@@ -74,4 +90,34 @@ color: hsl(178, 100%, 50%);
     margin-right: 6px;
 }
 
+hr {
+    border: 1px solid hsl(215, 51%, 70%);;
+}
+
+/* Card footer */
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+}
+
+.cardFooter h4 {
+    font-size: 14px;
+    font-weight: 200;
+    color: hsl(215, 51%, 70%);;
+}
+
+.cardFooter img {
+    width: 24px;
+    height: 24px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.cardFooter a {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
 
