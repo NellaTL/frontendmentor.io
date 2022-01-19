@@ -5,18 +5,19 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-main, footer {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-}
-
-main {
     height: 100vh;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
 /* Main card container */
 
@@ -96,23 +97,40 @@ hr {
 .cardFooterAvatar {
     width: 24px;
     height: 24px;
+    margin-right: 16px;
     border: 1px solid white;
     border-radius: 50%;
-    margin-right: 16px;
 }
 
 .cardFooter a {
     font-weight: 400;
-    color: white;
-    text-decoration: none;
 }
 
-/* Attribution */
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+/* Hover state */
+.heroImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+
+.heroImageOverlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(178, 100%, 50%);
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.heroImageOverlay:hover {
+    opacity: 75%;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+    transition: 0.3s;
 }
