@@ -32,7 +32,7 @@ Users should be able to:
 
 #### Mobile preview
 
-![](design/mobileFInal-screenshot.png)
+![](design/mobileFinal-screenshot.png)
 
 ### Links
 
