@@ -14,6 +14,7 @@ body {
 .card {
    width: 325px;
    background-color: white;
+   color: hsl(224, 23%, 55%);
    margin: auto;
    /* padding: 24px; */
    border-radius: 16px;
@@ -24,18 +25,18 @@ body {
     
 }
 
-/* Card image  */
+/* Card image */
 
 .card__image img {
    width: 100%  ;
    border-radius: 16px 16px 0 0;
 }
 
-/* Card main copy  */
+/* Card main copy */
 
 .card__copy {
     text-align: center;
-    margin: 0 24px;
+    width: 85%;
     color: hsl(224, 23%, 55%);
     line-height: 1.75em;
 }
@@ -48,11 +49,44 @@ body {
     font-weight: 500;
 }
 
-/* Card plan  */
+/* Card plan */
 
 .card__plan {
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    font-size: 0.9em;
+    padding: 16px;
+    border-radius: 16px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.plan {
+    display: flex;
+    align-items: center;
+}
+
+.plan__info {
+    margin: 0 1em ;
+}
+
+.plan__info h2 {
+    font-size: 1em;
+    color: hsl(223, 47%, 23%);
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+
+.plan__info p {
+    margin: 0;
+}
+
+.plan__change a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
 
 
 /* Responsive media queries */
