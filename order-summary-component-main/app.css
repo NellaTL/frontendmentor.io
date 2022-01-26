@@ -1,7 +1,7 @@
 body {
     background-image: url(images/pattern-background-desktop.svg) ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-color:hsl(225, 100%, 94%) ;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
@@ -11,8 +11,15 @@ body {
     align-items: center;
 }
 
+a {
+    font: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+}
+
 .card {
-   width: 20.3em;
+   width: 24rem;
    background-color: white;
    color: hsl(224, 23%, 55%);
    border-radius: 1rem;
@@ -53,7 +60,8 @@ body {
 
 .card__plan {
     background-color: hsl(225, 100%, 98%);
-    width: 75%;
+    width: 85%;
+    box-sizing:border-box;
     font-size: 0.9em;
     padding: 1rem;
     border-radius: 0.75rem;
@@ -84,9 +92,8 @@ body {
 
 .plan__change a {
     color: hsl(245, 75%, 52%);
-    font: inherit;
+    text-decoration: underline;
     font-size: 0.85rem;
-    font-weight: 700;
 }
 
 /* Card button */
@@ -105,11 +112,51 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
+/* Cancel order */
+
+.card__cancel {
+    margin-bottom: 1.5rem;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+}
+
+/* Hover states */
+
+.plan__change a:hover {
+    opacity: 70%;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.card__button:hover {
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+.card__cancel a:hover {
+    color: hsl(223, 47%, 23%);
+    transition: 0.3s;
+}
+
+
+
 /* Responsive media queries */
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     body {
         background-image: url(images/pattern-background-mobile.svg) ; 
+    }
+
+    .card {
+        width: 20.3rem;
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+
+    .card__plan {
+        flex-direction: column;
     }
     
 }
