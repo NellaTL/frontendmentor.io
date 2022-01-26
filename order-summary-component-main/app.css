@@ -5,8 +5,54 @@ body {
     background-color:hsl(225, 100%, 94%) ;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.card {
+   width: 325px;
+   background-color: white;
+   margin: auto;
+   /* padding: 24px; */
+   border-radius: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+/* Card image  */
+
+.card__image img {
+   width: 100%  ;
+   border-radius: 16px 16px 0 0;
+}
+
+/* Card main copy  */
+
+.card__copy {
+    text-align: center;
+    margin: 0 24px;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.75em;
+}
+
+.card__copy h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.card__copy p {
+    font-weight: 500;
+}
+
+/* Card plan  */
+
+.card__plan {
+    display: flex;
+}
 
 
 /* Responsive media queries */
