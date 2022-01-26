@@ -42,7 +42,7 @@ a {
 
 .card__copy {
     text-align: center;
-    width: 85%;
+    width: 80%;
     color: hsl(224, 23%, 55%);
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
@@ -60,7 +60,7 @@ a {
 
 .card__plan {
     background-color: hsl(225, 100%, 98%);
-    width: 85%;
+    width: 80%;
     box-sizing:border-box;
     font-size: 0.9em;
     padding: 1rem;
@@ -99,7 +99,7 @@ a {
 /* Card button */
 
 .card__button {
-    width: 85%;
+    width: 80%;
     background-color: hsl(245, 75%, 52%);
     color: white;
     border: none;
@@ -149,6 +149,10 @@ a {
 
     .card {
         width: 20.3rem;
+    }
+
+    .card__copy, .card__plan, .card__button {
+        width: 85%;
     }
     
 }
