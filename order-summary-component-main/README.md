@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/NellaTL/frontendmentor.io/tree/main/order-summary-component-main)
-- [Live Site URL](order-summary-component-main-la.netlify.app)
+- [Live Site URL](https://order-summary-component-main-la.netlify.app/)
 
 
 ## My process
