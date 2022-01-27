@@ -75,6 +75,14 @@ a {
     align-items: center;
 }
 
+.plan__icon {
+    display: flex;
+}
+
+.plan__icon img {
+    width: 3em;
+}
+
 .plan__info {
     margin: 0 1rem ;
 }
