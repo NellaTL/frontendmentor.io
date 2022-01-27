@@ -25,23 +25,44 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop preview
+
+![](design/desktopFinal-screenshot.png)
+
+#### Mobile preview
+
+![](design/mobileFinal-screenshot.png)
+
 
 ### Links
+
+- [Solution URL](https://github.com/NellaTL/frontendmentor.io/tree/main/order-summary-component-main)
+- [Live Site URL](order-summary-component-main-la.netlify.app)
 
 
 ## My process
 
 ### Built with
 
+- Semantic HTML5 markup
+- CSS custom properties 
+- Flexbox
+- BEM methodology 
 
 ### What I learned
 
+After feedback on my previous challenge suggested I look into adopting the BEM methodology for CSS classes I spent some time looking into how I could incorporate it into my routine workflow. After my first time using it I can definitely see the benefits, especially for larger scale projects. 
 
 ### Continued development
 
+Moving into future projects I'm going to continue to use BEM and look to reduce the amount of unnecessary code.
 
 ### Useful resources
 
+[CSS box shadows](https://getcssscan.com/css-box-shadow-examples) - This is a super useful tool for getting box shadows fast. 
 
 ## Author
+
+Website - [Luke Allen](https://github.com/NellaTL)
+Frontend Mentor - [NellaTL](https://www.frontendmentor.io/profile/NellaTL)
 
