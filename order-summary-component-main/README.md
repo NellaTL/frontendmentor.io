@@ -27,11 +27,11 @@ Users should be able to:
 
 #### Desktop preview
 
-![](design/desktopFinal-screenshot.png)
+![](order-summary-component-main/design/desktopFinal-screenshot.png)
 
 #### Mobile preview
 
-![](design/mobileFinal-screenshot.png)
+![](order-summary-component-main/design/mobileFinal-screenshot.png)
 
 
 ### Links
